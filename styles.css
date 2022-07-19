@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: aquamarine;
+    height: 126px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media2.giphy.com/media/fV81YuwkIOMohkm76z/giphy.gif?cid=790b761…&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 8px solid;
+    border-color: greenyellow;
+}
+
+.header-container{
+    position: relative;
+}
+
+nav{
+    width: 70%;
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+header img {
+    height: 217px;
+    position: absolute;
+    left: -183px;
+    top: -101px;
+}
+
+.charactersContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-image: url("https://preview.redd.it/aqjamwk67yx31.jpg?auto=webp&s=b19842228d73e14392003736b73e07baf5502621");
+    background-size: contain;}
+
+    .figure-container {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        width: 300px;
+        height: 450px;
+        border: 6px solid green;
+        border-radius: 50px;
+    }
+
+.figure-container h2{
+    height: 60px;
+    text-align: center;
+}
+
+.figure-container img{
+    border-radius: 18px;
+}
+
+
+header nav ul li {
+    letter-spacing: 3px;
+    color: greenyellow;
+}
+
+p{
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: green;
+    color: white;
+}
