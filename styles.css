@@ -98,3 +98,47 @@ footer{
     background-color: green;
     color: white;
 }
+
+@media (max-width: 576px) {
+
+    header{
+        height: 182px;
+    }
+
+header {
+    background-color: aquamarine;
+    height: 187px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://media2.giphy.com/media/fV81YuwkIOMohkm76z/giphy.gif?cid=790b761…&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 8px solid;
+    border-color: greenyellow;
+    padding-top: 46px;
+}
+
+    .header-container{
+        width: 100%;
+    }
+
+    header img {
+        height: 217px;
+        position: absolute;
+        left: 39px;
+        top: -111px;
+    }
+
+    .header-container img{
+        height: 175px;
+    }
+}
+
+@media (max-width: 968px) {
+    nav{
+        width: 90%;
+    }
+}
